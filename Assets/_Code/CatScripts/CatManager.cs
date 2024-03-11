@@ -154,7 +154,7 @@ public class CatManager : MonoBehaviour
     {
         var initialPosition = _decideInitialPosition(obj.transform.position);
         CatHand handPrefab;
-        if(initialPosition.y > 4.2)
+        if(initialPosition.y > 0)
         {
             handPrefab = CatHandPrefabDown;
         }else

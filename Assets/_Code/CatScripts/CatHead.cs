@@ -21,7 +21,7 @@ public class CatHead : MonoBehaviour
     private float _timeToReach = 5;
     private float _timeToRetreat = 3;
 
-    private float _shiftAmount = 2;
+    private float _shiftAmount = 5;
 
     bool _startOnWitchAnim;
 
@@ -39,7 +39,7 @@ public class CatHead : MonoBehaviour
         transform.position = new Vector3(0, GameManager.Instance.ScreenTopEdgeY +1 ,0);
         _initialPosition = transform.position;
 
-        transform.DOMoveY(transform.position.y - _shiftAmount, _timeToReach).SetEase(Ease.InElastic).OnComplete(() =>
+        transform.DOMoveY(transform.position.y - _shiftAmount, _timeToReach).SetEase(Ease.InOutFlash).OnComplete(() =>
         {
             _startOnWitchAnim = true;
         }); ;
