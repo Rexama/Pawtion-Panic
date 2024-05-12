@@ -26,7 +26,7 @@ public class MouseInput : Singleton<MouseInput>
                     {
                         station.CheckForPossibleRecipieStart();
                     }
-                };
+                }
             }
         }
     }

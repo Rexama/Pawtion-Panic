@@ -425,6 +425,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88541c4220709d845aba4fa684860817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &589906840 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5932393022775055053, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+  m_PrefabInstance: {fileID: 8497096150236098322}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &642921170 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3854061970398218050, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
@@ -1068,6 +1079,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1335876067 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6291940579521739349, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+  m_PrefabInstance: {fileID: 8497096150236098322}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86cbfe66a67af0045aaaacb8b45495c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1654913943
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,6 +1654,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88541c4220709d845aba4fa684860817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2016601990 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6612737668338205338, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+  m_PrefabInstance: {fileID: 8497096150236098322}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &707078566124039024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1744,7 +1777,7 @@ PrefabInstance:
     - target: {fileID: 6140080271269291505, guid: 00a8ab5e4dfbf3c4b848305b408acab3, type: 3}
       propertyPath: miniGamePanel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1335876067}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4947090606018348094, guid: 00a8ab5e4dfbf3c4b848305b408acab3, type: 3}
@@ -2531,10 +2564,42 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1942506908}
+    - target: {fileID: 5101509332527879399, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5110706765695821305, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291940579521739349, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+      propertyPath: timer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291940579521739349, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+      propertyPath: howMany
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6291940579521739349, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
       propertyPath: station
       value: 
       objectReference: {fileID: 1824838664}
+    - target: {fileID: 6291940579521739349, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+      propertyPath: counttext
+      value: 
+      objectReference: {fileID: 589906840}
+    - target: {fileID: 6291940579521739349, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+      propertyPath: endPrefab
+      value: 
+      objectReference: {fileID: 5978294281086223048, guid: ce1e1fd33bba9a74698a5e43965d06a9, type: 3}
+    - target: {fileID: 6291940579521739349, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+      propertyPath: timertext
+      value: 
+      objectReference: {fileID: 2016601990}
+    - target: {fileID: 6291940579521739349, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
+      propertyPath: startPrefab
+      value: 
+      objectReference: {fileID: 7702724471877219939, guid: 6637df6b07e7c9e4abb243160ad1c158, type: 3}
     - target: {fileID: 7210102509885545951, guid: aaeeac8b3aae9ec4aae7f8277e593cd7, type: 3}
       propertyPath: station
       value: 

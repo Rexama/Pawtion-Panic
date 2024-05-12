@@ -37,5 +37,6 @@ public abstract class MiniGamePanel : UIBehaviour
     public void LoseMiniGame()
     {
         gameObject.SetActive(false);
+        isActive = false;
     }
 }
